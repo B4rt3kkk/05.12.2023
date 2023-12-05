@@ -1,0 +1,27 @@
+				Lekcja
+			 Temat: Vector w C++.
+
+/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+
+int *tablica = new int [rozmiar]
+
+new
+
+delete[] tablice
+
+/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+
+Vector to kontener na dane, inczej możemy poweidzieć dynamiczna tablia. Mamy dostęp do każdego elemantu tej tablicy i możemy zwiekszać tą tablicę w dowolnym momencie.
+
+Funkcjie które nas interesują w nauce o vectorze:
+ - push_back(); dodaj na koniec tablicy nowy element
+ - insert(); dodaje element do tablicy we wskazane miejsce 
+ - begin(); wskazuje pierwszy element dynamicznej tablicy 
+ - end(); wskazuje na koniec dynamicnej tablicy 
+ - size(); zwraca ilość elementu dodanych z tablicy 
+
+Iterator dynamiecznej tablicy:
+
+Iterator - wskaźnik wskazujący na określony element tablicy. Można go edytować oraz za jego pomocą odwoływać się do określonego elementu tablicy.
+
+Używamy go kiedy wskazujemy na okreśłony element tablicy.
